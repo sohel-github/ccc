@@ -239,3 +239,25 @@ body{
     text-decoration: none;
     color: #005221;
 }
+
+
+@media (max-width: 500px){
+    #section_body{
+        height: auto;
+    }
+    .section_body_container {
+        flex-direction: column;
+    }
+    .section_body_container_content {
+        width: 100%;
+        padding: 10px;
+    }
+    .section_solution {
+        width: 100%;
+        padding: 10px;
+    }
+    .section_footer_container {
+        flex-direction: column-reverse;
+        gap: 15px;
+    }
+}
