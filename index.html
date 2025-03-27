@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CTG</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <div id="meyer_modal">
+        <div id="meyer_modal_content">
+            <div id="modal_close">&#x2715;</div>
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/BnYLGUsanPw?si=r4UNNb6kCufgTZMa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </div>
+    <header id="section_head">
+        <div class="section_head_container">
+            <div id="logo"><a href="#"><img src="./img/logo.png" alt="Logo" /></a></div>
+            <div id="head_right">
+                <div><a href="#">বাংলা</a></div>
+                <div>|</div>
+                <div><a href="#">EN</a></div>
+                <div><a href="#" title="Play Store" target="_blank"><img src="./img/play-store.png" alt="Play" width="25px" /></a></div>
+                <div><a href="#" title="App Store" target="_blank"><img src="./img/app-store.png" alt="Apple" width="25px" /></a></div>
+            </div>
+        </div>
+    </header>
+    <section id="section_body">
+        <div class="section_body_container">
+            <div class="section_body_container_content">
+                <h1>Welcome to Chittagong City Corporation</h1>
+                <p>Chittagong City Corporation is a one stop citizen engagement and management platform. Chittagong City Corporation citizens can download it on their Android and iOS mobile devices. Using the mobile application citizens can receive CCC services and raise issues in their area to CCC administration to resolve it on time.</p>
+                <a href="#" id="ms_btn">Mayor Speech</a>
+            </div>
+            <div class="section_solution">
+                <div class="section_solution_content">
+                    <h1>Solution Counter</h1>
+                    <div class="underline"></div>
+                    <div class="section_solution_content_list">
+                        <div class="section_solution_content_list_item">
+                            <h3>Total</h3>
+                            <h2>15323</h2>
+                        </div>
+                        <div class="section_solution_content_list_item">
+                            <h3>Solution</h3>
+                            <h2>12520</h2>
+                        </div>
+                        <div class="section_solution_content_list_item">
+                            <h3>In Process</h3>
+                            <h2>2803</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer id="section_footer">
+        <div class="section_footer_container">
+            <div class="copyright">© 2025 CCC</div>
+            <div class="footer_pages">
+                <div><a href="#">Privacy Policy</a></div>
+                <div>|</div>
+                <div><a href="#">Terms and Conditions</a></div>
+                <div>|</div>
+                <div><a href="#">Contact</a></div>
+            </div>
+            <!-- <div class=""></div> -->
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('ms_btn').addEventListener('click', function() {
+            document.getElementById('meyer_modal').style.display = 'block';
+        });
+
+        document.getElementById('modal_close').addEventListener('click', function() {
+            document.getElementById('meyer_modal').style.display = 'none';
+        });
+    </script>
+</body>
+</html>
